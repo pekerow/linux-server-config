@@ -188,7 +188,7 @@ These instuctions redirect our Apache server to serve https instead of the defau
 In the Google Cloud Console, revise the application's credentials section: 
 * Added ``https://www.pekerow.site`` to Authorized Javscript Origins
 * Added ``https://www.pekerow.site/login`` ``https://www.pekerow.site/gconnect`` and ``https://www.pekerow.site/oauth2callback`` to Authorized Redirect URIs
-* Download the new ``client_secrets.json`` file from the Google CLoud Console and upload to ``/var/www/catalog`` to ensure proper routing and authentication of users. Routes and python decorator functions are unchanged from the development version.
+* Download the new ``client_secrets.json`` file from the Google Cloud Console and upload to ``/var/www/catalog`` to ensure proper routing and authentication of users. Routes and python decorator functions are unchanged from the development version.
 
 
 ### Sources Consulted
