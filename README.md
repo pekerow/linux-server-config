@@ -183,11 +183,12 @@ VirtualHost *:80>
 These instuctions redirect our Apache server to serve https instead of the default http. Certbot creates the path ``/etc/letsencrypt/live/``to store the certificate and associated key, allowing the client browser to authenticate the certificate. It also creates an error log for debugging at ``/var/log/apache2/error.log`` and an access log for vieweing user-driven events at ``/var/log/apache2/access.log``
 
 
-### Reconfigure OAuth
-In the Google Cloud Console, altered the application's credentials section: 
+### Reconfigure OAuth 2.0 Client IDs
+
+In the Google Cloud Console, revise the application's credentials section: 
 * Added ``https://www.pekerow.site`` to Authorized Javscript Origins
 * Added ``https://www.pekerow.site/login`` ``https://www.pekerow.site/gconnect`` and ``https://www.pekerow.site/oauth2callback`` to Authorized Redirect URIs
-* Downloaed the new ``client_secrets.json`` file and replaced it on the server to ensure proper routing and authentication of users.
+* Download the new ``client_secrets.json`` file and upload to ``/var/www/catalog`` to ensure proper routing and authentication of users. Routes and python decorator functions are unchanged from the development version.
 
 
 ### Sources Consulted
