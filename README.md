@@ -213,7 +213,7 @@ In the Google Cloud Console, altered the application's credentials section:
 * https://www.rosehosting.com/blog/how-to-generate-a-self-signed-ssl-certificate-on-linux/
 * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7
 * https://sectigo.com/resource-library/install-certificates-apache-open-ssl 
-* https://supporthost.com/invalid-ssl-certificate/#:~:text=your%20SSL%20certificate.-,Invalid%20SSL%20certificate%3A%20self%2Dsigned%20certificate,indicate%20the%20problem%20to%20users.
+* https://supporthost.com/invalid-ssl-certificate
 * https://unix.stackexchange.com/questions/155150/where-in-apache-2-do-you-set-the-servername-directive-globally
 * https://github.com/daphnetull/linux-sever-config
 * https://stackoverflow.com/questions/7210011/amazon-ec2-ssh-timeout-due-inactivity
